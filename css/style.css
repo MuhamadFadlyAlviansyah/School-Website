@@ -1,0 +1,322 @@
+* {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.active{
+    color: #1c3a83;
+}
+
+ul{
+    list-style: none;
+    margin: 20px 32px;
+    overflow: hidden;
+}
+
+li{
+    float: right;
+}
+
+.logo{
+    float: left;
+    cursor: pointer;
+}
+
+li a{
+    display: block;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+}
+
+.content1{
+    background-color: #7ab9ec;
+}
+
+.content1 .text1{
+    float: left;
+    margin: 60px 100px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.content .text1 .text{
+    text-align: center;
+}
+
+.text h1{
+    margin-top: 5px;
+}
+
+.content1 img{
+    margin-left: 50rem;
+    padding: 10px;
+}
+
+mark{
+    background-color: #1c3a83;
+    color: #eee;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+/* Content 2 */
+.content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    background-color: white;
+    padding: 0 12%;
+}
+  
+.card {
+    background-color: #f7f8f9;
+    transition: 0.3s;
+    width: 300px;
+    min-height: 350px;
+    padding: 32px;
+    margin: 81px 0;
+    text-align: center;
+}
+  
+.card h2{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.card p{
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.card:hover {
+    background-color: #fbcb7b;
+    width: 350px;
+    min-height: 400px;
+}
+
+/* Content 3 */
+.content3 {
+    padding: 1% 12% 6% 12%;
+    background-color: #7ab9ec;
+    display:grid;
+    grid-template-columns: 40% 60%;
+}
+.content3 img{
+    padding-top: 90px;
+    max-width: 600px;
+    height: auto;
+}
+  
+.text3 {
+    padding-top: 40px;
+    padding-left: 100px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+}
+  
+.text3 p{
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+/* Sejarah */
+.sejarah{
+    margin: 90px 90px;
+    min-width: 600px;
+    background-color: #7ab9ec;
+    border-radius: 30px;
+}
+
+.sejarah h1{
+    display: flex;
+    padding: 30px 580px;
+    color: white;
+    font-size: 40px;
+}
+.sejarah p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 450px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+}
+
+.sejarah img{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 120px;
+}
+
+/* Matrikulasi */
+.matrikulasi{
+    margin: 90px 90px;
+    min-width: 600px;
+    background-color: #7ab9ec;
+    border-radius: 30px;
+}
+
+.matrikulasi h1{
+    display: flex;
+    padding: 30px 750px;
+    color: white;
+    font-size: 40px;
+}
+.matrikulasi p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 350px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+}
+
+.matrikulasi img{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+/* Kantin Sehat */
+.kantin{
+    margin: 90px 90px;
+    min-width: 600px;
+    background-color: #7ab9ec;
+    border-radius: 30px;
+}
+
+.kantin h1{
+    display: flex;
+    padding: 30px 710px;
+    color: white;
+    font-size: 40px;
+}
+.kantin p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 450px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+}
+
+.kantin img{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 150px;
+}
+
+/* Perpustakaan */
+.perpustakaan{
+    margin: 90px 90px;
+    min-width: 600px;
+    background-color: #7ab9ec;
+    border-radius: 30px;
+}
+
+.perpustakaan h1{
+    display: flex;
+    padding: 30px 710px;
+    color: white;
+    font-size: 40px;
+}
+.perpustakaan p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 450px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+}
+
+.perpustakaan img{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 32px;
+}
+
+/* Makanan Sehat */
+.makanan-sehat{
+    margin: 90px 90px;
+    min-width: 600px;
+    background-color: #7ab9ec;
+    border-radius: 30px;
+}
+
+.makanan-sehat h1{
+    display: flex;
+    padding: 30px 710px;
+    color: white;
+    font-size: 40px;
+}
+.makanan-sehat p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 450px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+}
+
+.makanan-sehat img{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+/* Footer */
+.footer-main {
+    color: white;
+    background-color:#004258;
+    padding: 24px 60px;
+}
+  
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 50px auto;
+    max-width: 100%;
+    justify-items: center;
+}
+  
+@media (max-width: 1024px) {
+    .footer-grid {
+      padding-left: 20px;
+}
+}
+  
+.footer-grid p {
+    margin: 10px 0;
+}
